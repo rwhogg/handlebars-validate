@@ -1,9 +1,15 @@
+#!/usr/bin/env node
 var fs = require("fs");
 var handlebars = require("yui/handlebars").Handlebars;
 
-for(var filePath in process.argv)
+for(var i = 2; i < process.argv.length; i++)
 {
-    if(!handlebars.precompile(fs.readFileSync(filePath, "utf-8")))
+    var filePath = process.argv[i];
+    try
+    {
+        handlebars.precompile(fs.readFileSync(filePath, "utf-8"));
+    }
+    catch(e)
     {
         console.log("Could not compile file " + filePath);
     }
