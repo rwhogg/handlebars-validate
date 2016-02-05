@@ -1,2 +1,1 @@
-for(var filePath in process.argv)
-{
+bin/valhbs

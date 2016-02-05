@@ -2,7 +2,7 @@
   "name": "handlebars-validate",
   "version": "0.1.0",
   "description": "A tool for bulk validation of Handlebars templates.",
-  "main": "index.js",
+  "bin": "./bin/valhbs",
   "scripts": {
     "test": "nodeunit test.js"
   },
@@ -17,7 +17,9 @@
   "author": "Bob W. Hogg <hogg.bob.2@gmail.com>",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "nodeunit": "^0.9.1",
-    "yuidocjs": "^0.10.0"
+    "nodeunit": "^0.9.1"
+  },
+  "dependencies": {
+    "yui": "^3.18.1"
   }
 }

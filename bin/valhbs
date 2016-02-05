@@ -1,0 +1,10 @@
+var fs = require("fs");
+var handlebars = require("yui/handlebars").Handlebars;
+
+for(var filePath in process.argv)
+{
+    if(!handlebars.precompile(fs.readFileSync(filePath, "utf-8")))
+    {
+        console.log("Could not compile file " + filePath);
+    }
+}
