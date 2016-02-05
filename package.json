@@ -1,0 +1,19 @@
+{
+  "name": "handlebars-validate",
+  "version": "0.1.0",
+  "description": "A tool for bulk validation of Handlebars templates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/rwhogg/handlebars-validate"
+  },
+  "keywords": [
+    "Handlebars",
+    "validation"
+  ],
+  "author": "Bob W. Hogg <hogg.bob.2@gmail.com>",
+  "license": "BSD-2-Clause"
+}
