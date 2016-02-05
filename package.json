@@ -15,5 +15,9 @@
     "validation"
   ],
   "author": "Bob W. Hogg <hogg.bob.2@gmail.com>",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "nodeunit": "^0.9.1",
+    "yuidocjs": "^0.10.0"
+  }
 }
