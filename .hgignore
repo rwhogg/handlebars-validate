@@ -1,3 +1,0 @@
-syntax: glob
-node_modules/*
-typings/node/node.d.ts
