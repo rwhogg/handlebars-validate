@@ -3,18 +3,15 @@
   "version": "0.1.0",
   "description": "A tool for bulk validation of Handlebars templates.",
   "bin": "./bin/valhbs",
-  "scripts": {
-    "test": "nodeunit test.js"
-  },
   "repository": {
     "type": "git",
-    "url": "git@github.com/rwhogg/handlebars-validate"
+    "url": "git+https://github.com/rwhogg/handlebars-validate"
   },
   "keywords": [
     "Handlebars",
     "validation"
   ],
-  "author": "Bob W. Hogg <hogg.bob.2@gmail.com>",
+  "author": "Bob W. Hogg <rwhogg@linux.com>",
   "license": "BSD-2-Clause",
   "dependencies": {
     "yui": "^3.18.1"
