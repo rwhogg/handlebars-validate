@@ -1,0 +1,16 @@
+name: handlebars-validate
+version: 0.1.0
+summary: Command-line tool to validate Handlebars template files
+description: |
+    Validates Handlebars template (.hbs) files.
+grade: devel
+confinement: devmode
+
+apps:
+    valhbs:
+        command: bin/handlebars-validate
+        plugs: [home]
+
+parts:
+  handlebars-validate:
+    plugin: nodejs
