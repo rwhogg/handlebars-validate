@@ -2,6 +2,7 @@
 var fs = require("fs");
 var handlebars = require("yui/handlebars").Handlebars;
 
+let exitStatus = 0;
 for(var i = 2; i < process.argv.length; i++)
 {
     var filePath = process.argv[i];
@@ -12,5 +13,8 @@ for(var i = 2; i < process.argv.length; i++)
     catch(e)
     {
         console.log("Could not compile file " + filePath);
+        exitStatus = 1;
     }
 }
+
+process.exit(exitStatus);
