@@ -11,7 +11,7 @@
     "Handlebars",
     "validation"
   ],
-  "author": "Bob W. Hogg <rwhogg@linux.com>",
+  "author": "Bob Wombat Hogg <wombat@rwhogg.site>",
   "license": "BSD-2-Clause",
   "dependencies": {
     "yui": "^3.18.1"
