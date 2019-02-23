@@ -1,19 +1,19 @@
 {
-  "name": "handlebars-validate",
-  "version": "0.1.1",
-  "description": "A tool for bulk validation of Handlebars templates.",
-  "bin": "./bin/valhbs",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rwhogg/handlebars-validate"
-  },
-  "keywords": [
-    "Handlebars",
-    "validation"
-  ],
-  "author": "Bob Wombat Hogg <wombat@rwhogg.site>",
-  "license": "BSD-2-Clause",
-  "dependencies": {
-    "yui": "^3.18.1"
-  }
+    "name": "handlebars-validate",
+    "version": "0.1.1",
+    "description": "A tool for bulk validation of Handlebars templates.",
+    "bin": "./bin/valhbs",
+    "repository": {
+        "type": "git",
+      "url": "git+https://github.com/rwhogg/handlebars-validate"
+    },
+    "keywords": [
+        "Handlebars",
+        "validation"
+    ],
+    "author": "Bob Wombat Hogg <wombat@rwhogg.site>",
+    "license": "BSD-2-Clause",
+    "dependencies": {
+        "yui": "^3.18.1"
+    }
 }
